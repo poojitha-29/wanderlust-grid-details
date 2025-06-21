@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Calendar, MapPin, Users, Plane, Clock, Star, Hotel } from 'lucide-react';
+import { Calendar, MapPin, Users, BuildingIcon, Clock, Star } from 'lucide-react';
 import { PerksCarousel } from './PerksCarousel';
 
 const Index = () => {
@@ -19,10 +19,10 @@ const Index = () => {
       discount: "AirFare Seperate",
       image: "https://wallpapercave.com/wp/wp1841860.jpg",
       rating: 4.8,
-      duration: "4 Days 3 Nights",
+      duration: " 3 Nights 4 Days",
       travelers: "34 PAX minimum",
       travelDate: "05th Aug 2025 to 08th Aug 2025",
-      highlights: ["Universal Studios", "Sentosa Island", "Gardens by the Bay", "Marina Bay Sands"],
+      highlights: ["Universal Studios", "Sentosa Island"],
       itinerary: [
         {
           day: 1,
@@ -42,7 +42,7 @@ const Index = () => {
             "Morning breakfast at hotel",
             "Proceed to Singapore City tour",
             "Afternoon Lunch at Indian Restaurant",
-            "Sentosa (Cable car 1 Way + Mt ( 5 in l ) + Wings of the time 1st Show)",
+            "Sentosa (Cable car 1 Way + Madame Tussauds ( 5 in l ) + Wings of the time 1st Show)",
             "Night Dinner at Indian restaurant",
             "Overnight stay at hotel"
           ]
@@ -59,7 +59,7 @@ const Index = () => {
         },
         {
           day: 4,
-          title: "Meals: Breakfast, Lunch & Dinner",
+          title: "Meals: Breakfast, Lunch & Packed Dinner",
           activities: [
             "Morning breakfast at hotel and checkout hotel as per hotel policy (between 10 am to 12 pm)",
             "leave luggage at lobby, rest of the time at leisure for shopping on own",
@@ -69,7 +69,7 @@ const Index = () => {
         }
       ],
       inclusions: [
-        "03N stay in Hotel",
+        "03N stay in Hotel 4* Grand Central or Similar ( double occupancy with breakfast )",
         "03 Breakfast at hotel(except arrival day)",
         "01 packed lunch on arrival day",
         "02 Indian Lunches in restaurant",
@@ -86,14 +86,13 @@ const Index = () => {
         "Any extra tours & transfers",
         "Anything not mentioned in Inclusions",
         "Tourism taxes if any applicable per night per person payable direct at hotel",
-        "03 Indian Dinners in restaurant"
       ],
       policy: [
-        "HOTEL POLICY: Guest must follow the standard check-in/check-out time as per the final tour confirmation voucher. Hotel timings vary by destination. Early check-in or late check-out is subject to availability and may incur extra cost. Room services and special orders (non-alcoholic beverages) are at the guest's own expense. Some hotels maintain a minibar/snacks – any consumption must be paid for directly by the customer. Any damages to hotel or room property will be charged directly to the guest by the hotel.",
-        "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
+        "HOTEL POLICY: Guest must follow the standard check-in/check-out time as per hotel policy mentioned in the final tour confirmation voucher. Hotel timings vary by destination. Early check-in or late check-out is subject to availability and may incur extra cost. Room services and special orders (non-alcoholic beverages) are at the guest's own expense. Some hotels maintain a minibar/snacks – any consumption must be paid for directly by the customer. Any damages to hotel or room property will be charged directly to the guest by the hotel.Sangeethaholidayspvtltd is not responsible for the damaged property",
+        "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment.    Note :Final service voucher will be provided one day before departure day"
       ],
       flightDetails: {
-        pricef: "INR 22655 Approx",
+        pricef: "INR 22655 Approx(varies based on date and time)",
         onward: "Baggage (30kg + 7 kg) 05 Aug 2025: Bangalore 10.25 // Singapore 17.40",
         return: "Singapore Airlines( Non refundable 25Kg+ 7Kg) 08Aug 2025: Singapore 20.05 // Bangalore 21.50"
       }
@@ -106,10 +105,10 @@ const Index = () => {
       discount: "AirFare Seperate",
       image: "https://wallpapercave.com/wp/wp2378959.jpg",
       rating: 4.8,
-      duration: "5 Days 4 Nights",
+      duration: " 4 Nights 5 Days",
       travelers: "25 PAX minimum",
       travelDate: "05th Aug 2025 to 09th Aug 2025",
-      highlights: ["Universal Studios", "Sentosa Island", "Gardens by the Bay", "Marina Bay Sands"],
+      highlights: ["Universal Studios", "Genting highland","Sentosa Island",  "Spice Garden"],
       itinerary: [
         {
           day: 1,
@@ -128,7 +127,7 @@ const Index = () => {
             "Morning breakfast at hotel",
             "Proceed to Singapore City tour",
             "Afternoon Lunch at Indian Restaurant",
-            "Sentosa (Cable car 1 Way + Mt ( 5 in l ) + Wings of the time 1st Show)",
+            "Sentosa (Cable car 1 Way + Madame Tussauds ( 5 in l ) + Wings of the time 1st Show)",
             "Night Dinner at Indian restaurant",
             "Overnight stay at hotel"
           ]
@@ -195,7 +194,7 @@ const Index = () => {
         "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
       ],
       flightDetails: {
-        pricef: "7700+13414 == 21141 approx",
+        pricef: "7700+13414 == 21141 approx (varies based on date and time)",
         onward: "Indigo-- Baggage (30kgs +7kgs)05 Aug 2025: Bangalore 10.25 // Singapore 17.40== inr 7700 approx",
         return: " Indigo-- Baggage (30kgs +7kgs)09Aug 2025 : Kuala Lumpur 21.30 // Bangalore 23.10 ==INR 13414 approx"
       }
@@ -204,11 +203,11 @@ const Index = () => {
   id: 3,
   title: "Amritsar Tour",
   destination: "Amritsar 2N/3D",
-  price: "INR 22000 ",
+  price: "INR 15000 ",
   discount: "AirFare Separate",
   image: "https://as1.ftcdn.net/v2/jpg/03/11/74/00/1000_F_311740081_PL7ftGHnZL7JMBQpigswigY2xFwSRHJg.jpg",
   rating: 4.6,
-  duration: "3 Days 2 Nights",
+  duration: " 2 Nights 3 Days",
   travelers: "53 PAX (min guaranteed)",
   travelDate: "26th Aug 2025 to 28th Aug 2025",
   highlights: ["Golden Temple", "Jallianwala Bagh", "Wagah Border", "Local Shopping"],
@@ -245,7 +244,7 @@ const Index = () => {
     }
   ],
   inclusions: [
-    "02N stay in Hotel (Ramada by Wyndham or Similar, double occupancy with breakfast)",
+    "02N stay in Hotel (Golden sarovar or Similar, Standard room basic category (high category extra charges applicable))",
     "02 Breakfasts at hotel (except arrival day)",
     "03 Lunches, 02 Dinners",
     "2*500ml Bottles of water per person per day",
@@ -541,7 +540,7 @@ const Index = () => {
       <DialogContent className="max-w-lg">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold mb-4">
-            Employee Perks Gallery
+            Agents R&R at The Golden Palms Resort, Banglore
           </DialogTitle>
         </DialogHeader>
         <PerksCarousel />
@@ -670,7 +669,7 @@ const Index = () => {
                               <p className="text-sm text-gray-600">Rating</p>
                             </div>
                             <div className="text-center p-4 bg-orange-50 rounded-lg">
-                              <Plane className="w-8 h-8 text-orange-600 mx-auto mb-2" />
+                              <BuildingIcon className="w-8 h-8 text-orange-600 mx-auto mb-2" />
                               <p className="font-semibold text-gray-800">{tour.price}</p>
                               <p className="text-sm text-gray-600">Price</p>
                             </div>
@@ -754,7 +753,7 @@ const Index = () => {
       <p className="text-gray-700">{tour.flightDetails.pricef}</p>
     </div>
     <div>
-      <h5 className="font-semibold text-blue-600 mb-2">Outward Flight:</h5>
+      <h5 className="font-semibold text-blue-600 mb-2">Onward Flight:</h5>
       <p className="text-gray-700">{tour.flightDetails.onward}</p>
     </div>
     <div>
@@ -780,14 +779,27 @@ const Index = () => {
            
 
                           {/* Book Now Button */}
-                          <div className="text-center pt-6">
-                            <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-12 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                              Book This Tour - {tour.price}
-                            </Button>
-                            <p className="text-sm text-gray-600 mt-3">
-                              Gst and TCS applicable 5% each!
-                            </p>
-                          </div>
+                         <div className="text-center pt-6">
+  <Button
+    size="lg"
+    className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-12 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
+    onClick={() => {
+      const phoneNumber = '918106868686'; // 🔁 Replace with YOUR WhatsApp number
+      const message = encodeURIComponent(
+        `Hi, I'm interested in booking the "${tour.title}" package (${tour.destination}) scheduled from ${tour.travelDate}. Please guide me with the next steps.`
+      );
+      alert("Redirecting to WhatsApp...");
+      window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
+    }}
+  >
+    Book This Tour - {tour.price}
+  </Button>
+  <p className="text-sm text-gray-600 mt-3">
+    Gst and TCS applicable 5% each! (out of India) <br />
+    Gst 5% (inside India)
+  </p>
+</div>
+
                         </div>
                       )}
                     </DialogContent>
@@ -831,13 +843,8 @@ const Index = () => {
   {/* Main Footer CTA */}
   <div className="container mx-auto px-4 mt-16 text-center">
     <h3 className="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h3>
-    <p className="text-xl text-gray-300 mb-8">Contact us to customize your perfect travel experience</p>
-    <Button
-      size="lg"
-      className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white px-8 py-3 rounded-full"
-    >
-      Contact Us
-    </Button>
+    <p className="text-xl text-gray-300 mb-8">Contact us at 8106868686</p>
+    
   </div>
 </footer>
 
