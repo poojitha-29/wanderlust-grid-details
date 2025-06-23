@@ -18,7 +18,7 @@ const Index = () => {
       price: "INR 58000",
       discount: "AirFare Seperate",
       image: "https://wallpapercave.com/wp/wp1841860.jpg",
-      rating: 4.8,
+      rating: 4.9,
       duration: " 3 Nights 4 Days",
       travelers: "34 PAX minimum",
       travelDate: "05th Aug 2025 to 08th Aug 2025",
@@ -104,7 +104,7 @@ const Index = () => {
       price: "INR 71000",
       discount: "AirFare Seperate",
       image: "https://wallpapercave.com/wp/wp2378959.jpg",
-      rating: 4.8,
+      rating: 4.9,
       duration: " 4 Nights 5 Days",
       travelers: "25 PAX minimum",
       travelDate: "05th Aug 2025 to 09th Aug 2025",
@@ -206,7 +206,7 @@ const Index = () => {
   price: "INR 15000 ",
   discount: "AirFare Separate",
   image: "https://as1.ftcdn.net/v2/jpg/03/11/74/00/1000_F_311740081_PL7ftGHnZL7JMBQpigswigY2xFwSRHJg.jpg",
-  rating: 4.6,
+  rating: 4.9,
   duration: " 2 Nights 3 Days",
   travelers: "53 PAX (min guaranteed)",
   travelDate: "26th Aug 2025 to 28th Aug 2025",
@@ -275,7 +275,7 @@ const Index = () => {
   price: "INR 22000 ",
   discount: "AirFare Separate",
   image: "https://www.bautrip.com/images/front/goa.jpg",
-  rating: 4.7,
+  rating: 4.9,
   duration: "3 Days 2 Nights",
   travelers: "200 PAX (min guaranteed)",
   travelDate: "10th Aug 2025 to 12th Aug 2025",
@@ -353,48 +353,51 @@ const Index = () => {
   id: 5,
   title: "Tirupati Tour",
   destination: "Tirupati 1N/2D",
-  price: "INR 22000",
-  discount: "Specially curated",
-  image: "https://wallpapers.com/images/hd/tirupati-balaji-evening-temple-u5jye4arrupbhb6v.jpg",
-  rating: 4.6,
-  duration: "2 Days 1 Night",
-  travelers: "412 PAX (min guaranteed) - 4 batches of 100 each",
+  price: "INR 14000 ",
+  discount: "Specially Curated",
+  image: "https://wallpapers.com/images/hd/tirupati-balaji-evening-temple-u5jye4arrupbhb6v.jpg", // Replace with a better image URL if needed
+  rating: 4.9,
+  duration: "1N/2D",
+
+  travelers: "412 PAX (min guaranteed) - 4 batches (100 each)",
   travelDate: "28th Aug 2025 to 29th Aug 2025",
   highlights: [
-    "Kalyana Venkateswara Swamy Temple",
-    "Tiruchanur Sri Padmavathi Ammavari Temple",
-    "Tirumala Balaji Darshan"
+    "Darshan at Tirumala Temple",
+    "Visit to Kalyana Venkateswara Swamy Temple",
+    "Visit to Sri Padmavati Ammavaari Temple",
+    "Indian Meals",
+    "AC Bus Travel from Bangalore"
   ],
   itinerary: [
     {
       day: 1,
       title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
-        "Early morning departure from Bangalore by AC bus",
-        "Breakfast on arrival at Tirupati",
-        "Hotel check-in and lunch",
-        "Visit Kalyana Venkateswara Swamy Temple",
-        "Visit Tiruchanur Sri Padmavathi Ammavari Temple",
-        "Return to hotel for dinner and overnight stay"
+        "Early morning start by AC bus to Tirupati",
+        "Breakfast on arrival",
+        "Check-in to hotel",
+        "Lunch at hotel ",
+        "Afternoon visit to Kalyana Venkateswara Swamy Temple and Tiruchanur Sri Padmavati Ammavaari Temple",
+        "Dinner and overnight stay at hotel"
       ]
     },
     {
       day: 2,
-      title: "Meals: Breakfast & Dinner",
+      title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
         "Breakfast at hotel and check-out",
-        "Proceed to Tirumala for Balaji Darshan (based on darshan slot timings)",
-        "Dinner followed by return journey to Bangalore by AC bus"
+        "Proceed to Tirumala for darshan as per slot timing",
+        " dinner",
+        "Night return to Bangalore by AC bus"
       ]
     }
   ],
   inclusions: [
-    "01N stay in Hotel (Marasa Sarovar Premiere or Similar, double occupancy with breakfast)",
-    "02 Breakfasts (including day of departure)",
-    "01 Lunch at hotel",
-    "02 Dinners",
+    "01N stay in Hotel (Fortune Select Grand Ridge / Ekanta Bliss Hotel / Marasa Sarovar Premier or similar standard room- base category (high category room extra cost))",
+    "02 Breakfasts, 02 Lunches, 01 Dinner, 01 Packed Dinner",
+    "Darshan ticket (as per slot availability)",
     "2*500ml Bottles of water per person per day",
-    "All transfers according to program including airport transfers by AC coach"
+    "All transfers including airport transfers by Ac coach"
   ],
   exclusions: [
     "Airfare",
@@ -404,16 +407,16 @@ const Index = () => {
     "Tourism taxes if any applicable per night per person payable direct at hotel"
   ],
   policy: [
-    "HOTEL POLICY: Guest must follow the standard check-in/check-out time as per the final tour confirmation voucher. Hotel timings vary by destination. Early check-in or late check-out is subject to availability and may incur extra cost. Room services and special orders (non-alcoholic beverages) are at the guest's own expense. Some hotels maintain a minibar/snacks – any consumption must be paid for directly by the customer. Any damages to hotel or room property will be charged directly to the guest by the hotel.",
+   "HOTEL POLICY: Guest must follow the standard check-in/check-out time as per the final tour confirmation voucher. Hotel timings vary by destination. Early check-in or late check-out is subject to availability and may incur extra cost. Room services and special orders (non-alcoholic beverages) are at the guest's own expense. Some hotels maintain a minibar/snacks – any consumption must be paid for directly by the customer. Any damages to hotel or room property will be charged directly to the guest by the hotel.",
     "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
   ],
   flightDetails: {
-  pricef: "Not Applicable",
-  onward: "Not Applicable",
-  return: "Not Applicable"
+    pricef: "Not Applicable",
+    onward: "Not Applicable",
+    return: "Not Applicable"
+  }
 }
-
-},
+,
 {
   id: 6,
   title: "Phuket Tour",
@@ -421,7 +424,7 @@ const Index = () => {
   price: "INR 22000",
   discount: "AirFare Separate",
   image: "https://wallpaperaccess.com/full/150575.jpg",
-  rating: 4.8,
+  rating: 4.9,
   duration: "4 Days 3 Nights",
   travelers: "48 PAX (min guaranteed)",
   travelDate: "11th Aug 2025 to 14th Aug 2025",
@@ -511,22 +514,37 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
  {/* Collaborative Hero Section */}
-<div className="relative flex items-center justify-center bg-gradient-to-r from-blue-700 to-green-600 text-white py-20">
-  {/* Logos */}
- <div className="absolute top-6 left-6 flex items-center space-x-4 bg-white/10 backdrop-blur-md px-4 py-2 rounded-xl shadow-md">
-  <img src="/images/image.png" alt="Star Health" className="h-14 w-auto object-contain" />
-  <span className="text-white text-xl font-semibold">×</span>
-  <img src="/images/stt.jpg" alt="Sangeetha Holidays" className="h-14 w-auto object-contain" />
-</div>
+<div className="relative flex flex-col items-center justify-center bg-gradient-to-r from-blue-700 to-green-600 text-white py-20 px-4 overflow-hidden">
+  
+  {/* Logo Collaboration Section */}
+  <div className="flex items-center space-x-8 mb-10 bg-white/10 backdrop-blur-xl px-8 py-4 rounded-2xl shadow-xl border border-white/30 hover:shadow-2xl transition-shadow duration-300">
+    
+    {/* Star Health Logo */}
+    <div className="bg-white rounded-full shadow-lg p-1">
+      <img src="/images/image.png" alt="Star Health" className="h-20 w-20 object-contain rounded-full" />
+    </div>
 
+    {/* Collaboration Badge */}
+    <div className="text-white text-sm md:text-base font-semibold px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-green-500 shadow-inner flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 animate-bounce text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.946a1 1 0 00.95.69h4.15c.969 0 1.371 1.24.588 1.81l-3.36 2.44a1 1 0 00-.364 1.118l1.286 3.946c.3.921-.755 1.688-1.538 1.118l-3.36-2.44a1 1 0 00-1.175 0l-3.36 2.44c-.783.57-1.838-.197-1.538-1.118l1.286-3.946a1 1 0 00-.364-1.118L2.075 9.373c-.783-.57-.38-1.81.588-1.81h4.15a1 1 0 00.95-.69l1.286-3.946z" />
+      </svg>
+      <span>Our Collaboration</span>
+    </div>
 
-  {/* Hero Copy with Perks Button */}
-  <div className="text-center px-4">
+    {/* Sangeetha Holidays Logo */}
+    <div className="bg-white rounded-full shadow-lg p-1">
+      <img src="/images/sangeethalogo.jpg" alt="Sangeetha Holidays" className="h-20 w-20 object-contain rounded-full" />
+    </div>
+  </div>
+
+  {/* Hero Heading and Button */}
+  <div className="text-center">
     <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
       A Journey Together
     </h1>
     <p className="text-lg md:text-2xl mb-6 max-w-2xl mx-auto opacity-90">
-      Star Health & Sangeethaholidays join forces to deliver exclusive trips crafted just for Star Health employees.
+      Star Health & Sangeetha Holidays join forces to deliver exclusive trips crafted just for Star Health employees.
     </p>
     <Dialog>
       <DialogTrigger asChild>
@@ -540,14 +558,29 @@ const Index = () => {
       <DialogContent className="max-w-lg">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold mb-4">
-            Agents R&R at The Golden Palms Resort, Banglore
+            Agents R&R at The Golden Palms Resort, Bangalore
           </DialogTitle>
         </DialogHeader>
         <PerksCarousel />
       </DialogContent>
     </Dialog>
   </div>
+
+  {/* Scrolling Services Text */}
+ {/* Scrolling Services Text */}
+<div className="w-full overflow-hidden mt-12 space-y-4">
+  <p className="animate-scrollLeft whitespace-nowrap text-lg md:text-xl font-semibold tracking-wide text-white/80">
+    ✈️ Air Ticketing &nbsp;&nbsp; • &nbsp;&nbsp; 🏨 Hotel Bookings  &nbsp;&nbsp; • &nbsp;&nbsp; 📋 Visa & Passport Assistance &nbsp;&nbsp; • &nbsp;&nbsp; 📦 Customized Holidays
+  </p>
+  <p className="animate-scrollRight whitespace-nowrap text-lg md:text-xl font-semibold tracking-wide text-white/80">
+     🚢 Cruise Packages &nbsp;&nbsp; • &nbsp;&nbsp; 💍 Destination Weddings &nbsp;&nbsp; • &nbsp;&nbsp; 🧳 Family Packages &nbsp;&nbsp; • &nbsp;&nbsp; 🌍 International and domestic tours
+  </p>
 </div>
+
+</div>
+
+
+
 
 
 
@@ -786,7 +819,8 @@ const Index = () => {
     onClick={() => {
       const phoneNumber = '918106868686'; // 🔁 Replace with YOUR WhatsApp number
       const message = encodeURIComponent(
-        `Hi, I'm interested in booking the "${tour.title}" package (${tour.destination}) scheduled from ${tour.travelDate}. Please guide me with the next steps.`
+        `Subject: Booking Inquiry for ${tour.title}  Package
+I am interested in booking the “${tour.title}” package (${tour.destination}) scheduled from ${tour.travelDate}. I would appreciate it if you could guide me through the next steps for confirming the reservation..`
       );
       alert("Redirecting to WhatsApp...");
       window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
@@ -841,11 +875,13 @@ const Index = () => {
   </div>
 
   {/* Main Footer CTA */}
-  <div className="container mx-auto px-4 mt-16 text-center">
-    <h3 className="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h3>
-    <p className="text-xl text-gray-300 mb-8">Contact us at 8106868686</p>
-    
-  </div>
+ <div className="container mx-auto px-4 mt-16 text-center">
+  <h3 className="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h3>
+  <p className="text-xl text-gray-300 mb-2">Managing Director: P. Venkata Srikanth</p>
+  <p className="text-xl text-gray-300">Contact us at: 81068 68686</p>
+</div>
+
+
 </footer>
 
     </div>
