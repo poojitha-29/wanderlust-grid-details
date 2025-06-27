@@ -425,7 +425,7 @@ const Index = () => {
   discount: "AirFare Separate",
   image: "https://wallpapercave.com/wp/wp1916874.jpg",
   rating: 4.9,
-  duration: "4 Days 3 Nights",
+  duration: "2 Nights 3 Days",
   travelers: "97 PAX( min guaranteed)",
   travelDate: "11th Aug 2025 to 13th Aug 2025",
   highlights: [
@@ -497,59 +497,67 @@ const Index = () => {
 {
   id: 7,
   title: "Phuket",
-  destination: "Phuket 2N/3D",
-  price: "INR 22000",
+  destination: "Phuket 3N/4D",
+  price: "INR 30000",
   discount: "AirFare Separate",
   image: "https://wallpaperaccess.com/full/150575.jpg",
   rating: 4.9,
-  duration: "4 Days 3 Nights",
-  travelers: "97 PAX( min guaranteed)",
-  travelDate: "11th Aug 2025 to 13th Aug 2025",
+  duration: "3 Nights 4 Days ",
+  travelers: "48 PAX( min guaranteed)",
+  travelDate: "25th Aug 2025 to 28th Aug 2025",
   highlights: [
-    "Marble temple",
-    "Gems Gallery",
-    "safari world & Marine park"
+    "Magic show",
+    "City tour",
+    "phi phi and khai islands"
   ],
   itinerary: [
     {
       day: 1,
       title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
-        "on Arrival at Bangkok , fresh up at airport , later proceed to hotel for breakfast",
-        "Later check-in room", 
-        "Lunch at Indian restaurant",
-        "Afternoon Bangkok city tour with (Golden + Marble temple + Gems Gallery)",
-        "Dinner at Indian restaurant",
-        "Overnight stay in hotel"
+        "Arrive HKT airport and transfer to Phuket hotel",
+        "Lunch at Indian restaurant in Phuket", 
+        "Check in at hotel (std check in time post 1400 hrs)",
+        "Carnival magic Show",
+        "Dinner at Indian restaurant"
       ]
     },
     {
       day: 2,
       title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
-        "Morning after breakfast , - proceed to safari world & Marine park with Lunch ",
-        "Evening Proceed for Chao phraya Cruise with Indian dinner ",
-        "Overnight stay in hotel"
+        "Breakfast at hotel ",
+        "Phuket city tour dolphin by the bay ( regular seat)",
+        "Lunch at Indian restaurant in Phuket",
+        "Dinner at Indian restaurant in Phuket",
       ]
     },
     {
       day: 3,
       title: "Meals: Breakfast, Lunch ",
       activities: [
-        "Morning after breakfast , check-out room as per hotel policy",
-        "Put luggage in lobby . rest of the time at leisure",
-        "Lunch at Indian restaurant",
-        "drop off at Bangkok airport"
+        "Breakfast at hotel",
+        "Phi Phi Island + Khai island + Maya bay tour by Speed boat including Indian Lunch -(Include national park fees)",
+        "Dinner at Indian restaurant",
       ]
     },
+     {
+      day: 4,
+      title: "Meals: Breakfast, Lunch ",
+      activities: [
+        "Breakfast at hotel",
+        "Check out before 12:00 pm ",
+        "Transfer to airport for flight"
+      ]
+    }
    
   ],
   inclusions: [
-    "02N stay in Hotel Ambassador Hotel or Similar ( Standard room – basic category )(Higher category on extra cost ) ",
-    "03 Breakfasts at hotel",
+    "03N stay in Hotel ",
+    "03 Breakfasts at hotell(except arrival day)",
     "02 Lunches in restaurant",
     "01 lunch on tour",
-    "02 Dinners in restaurant",
+    "03 Dinners in restaurant",
     "2*500ml Bottles of water per person per day",
     "All transfers according to program including airport transfers by AC coach"
   ],
@@ -565,9 +573,9 @@ const Index = () => {
     "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
   ],
   flightDetails: {
-    pricef: "INR 32931 Approx",
-    onward: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable 11 Aug 2025: Bangalore 00.30 // Bangkok 05.55",
-    return: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable13 Aug 2025 : Bangkok 21.20 // Bangalore 23.20"
+    pricef: "INR 23402 Approx",
+    onward: "Indigo-- Baggage (30kgs +7kgs)25 Aug 2025: Bangalore 06.15 // Phuket 11.35",
+    return: "Indigo-- Baggage (30kgs +7kgs)28 Aug 2025 : phuket 12.45 // Bangalore 14.50"
   }
 }
 
