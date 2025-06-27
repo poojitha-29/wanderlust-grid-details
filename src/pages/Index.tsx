@@ -397,7 +397,7 @@ const Index = () => {
     "02 Breakfasts, 02 Lunches, 01 Dinner, 01 Packed Dinner",
     "Darshan ticket (as per slot availability)",
     "2*500ml Bottles of water per person per day",
-    "All transfers including airport transfers by Ac coach"
+    "All transfers by Ac coach from Banglore to Banglore"
   ],
   exclusions: [
     "Airfare",
@@ -419,31 +419,29 @@ const Index = () => {
 ,
 {
   id: 6,
-  title: "Phuket Tour",
-  destination: "Phuket 3N/4D",
+  title: "Bangkok",
+  destination: "Bangkok 2N/3D",
   price: "INR 22000",
   discount: "AirFare Separate",
   image: "https://wallpaperaccess.com/full/150575.jpg",
   rating: 4.9,
   duration: "4 Days 3 Nights",
-  travelers: "48 PAX (min guaranteed)",
-  travelDate: "11th Aug 2025 to 14th Aug 2025",
+  travelers: "97 PAX( min guaranteed)",
+  travelDate: "11th Aug 2025 to 13th Aug 2025",
   highlights: [
-    "Fantasy Show",
-    "Phuket City Tour with Dolphin by the Bay",
-    "Phi Phi Island",
-    "Maya Bay",
-    "Khai Island",
-    "Indian Restaurants for Meals"
+    "Marble temple",
+    "Gems Gallery",
+    "safari world & Marine park"
   ],
   itinerary: [
     {
       day: 1,
-      title: "Meals: Lunch & Dinner",
+      title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
-        "Arrival at Phuket and proceed to hotel for check-in",
+        "on Arrival at Bangkok , fresh up at airport , later proceed to hotel for breakfast",
+        "Later check-in room", 
         "Lunch at Indian restaurant",
-        "Evening Fantasy show",
+        "Afternoon Bangkok city tour with (Golden + Marble temple + Gems Gallery)",
         "Dinner at Indian restaurant",
         "Overnight stay in hotel"
       ]
@@ -452,41 +450,29 @@ const Index = () => {
       day: 2,
       title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
-        "Breakfast at hotel",
-        "Proceed to Phuket City Tour with Dolphin by the Bay",
-        "Lunch at Indian restaurant",
-        "Evening at leisure",
-        "Dinner at Indian restaurant",
+        "Morning after breakfast , - proceed to safari world & Marine park with Lunch ",
+        "Evening Proceed for Chao phraya Cruise with Indian dinner ",
         "Overnight stay in hotel"
       ]
     },
     {
       day: 3,
-      title: "Meals: Breakfast, Lunch & Dinner",
+      title: "Meals: Breakfast, Lunch ",
       activities: [
-        "Breakfast at hotel",
-        "Proceed to Phi Phi Island + Maya Bay + Khai Island (includes National Park Fees) with lunch",
-        "Return by evening and leisure time",
-        "Dinner at Indian restaurant",
-        "Overnight stay in hotel"
+        "Morning after breakfast , check-out room as per hotel policy",
+        "Put luggage in lobby . rest of the time at leisure",
+        "Lunch at Indian restaurant",
+        "drop off at Bangkok airport"
       ]
     },
-    {
-      day: 4,
-      title: "Meals: Breakfast & Lunch",
-      activities: [
-        "Breakfast at hotel and check-out",
-        "Lunch at Indian restaurant",
-        "Transfer to airport for departure"
-      ]
-    }
+   
   ],
   inclusions: [
-    "03N stay in Hotel (Club Mahindra Assanora Resort or Similar, double occupancy with breakfast)",
-    "03 Breakfasts at hotel (except arrival day)",
+    "02N stay in Hotel Ambassador Hotel or Similar ( Standard room – basic category )(Higher category on extra cost ) ",
+    "03 Breakfasts at hotel",
     "02 Lunches in restaurant",
     "01 lunch on tour",
-    "03 Dinners in restaurant",
+    "02 Dinners in restaurant",
     "2*500ml Bottles of water per person per day",
     "All transfers according to program including airport transfers by AC coach"
   ],
@@ -502,9 +488,9 @@ const Index = () => {
     "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
   ],
   flightDetails: {
-    pricef: "INR 13664 + 12288 == INR 25952 Approx",
-    onward: "Indigo-- Baggage (30kgs + 7kgs) 11 Aug 2025: Bangalore 06.15 // Phuket 11.35 == INR 13664 approx",
-    return: "Indigo-- Baggage (30kgs + 7kgs) 14 Aug 2025: Phuket 12.45 // Bangalore 14.50 == INR 12288 approx"
+    pricef: "INR 32931 Approx",
+    onward: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable 11 Aug 2025: Bangalore 00.30 // Bangkok 05.55",
+    return: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable13 Aug 2025 : Bangkok 21.20 // Bangalore 23.20"
   }
 }
 
@@ -876,7 +862,7 @@ I am interested in booking the “${tour.title}” package (${tour.destination})
 
   {/* Main Footer CTA */}
  <div className="container mx-auto px-4 mt-16 text-center">
-  <h3 className="text-3xl font-bold mb-4">Ready for Your Next Adventure?</h3>
+  <h3 className="text-3xl font-bold mb-4">Ready for Your Next Travel?</h3>
   <p className="text-xl text-gray-300 mb-2">Managing Director: P. Venkata Srikanth</p>
   <p className="text-xl text-gray-300">Contact us at: 81068 68686</p>
 </div>
