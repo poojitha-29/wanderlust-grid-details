@@ -423,6 +423,83 @@ const Index = () => {
   destination: "Bangkok 2N/3D",
   price: "INR 22000",
   discount: "AirFare Separate",
+  image: "https://wallpapercave.com/wp/wp1916874.jpg",
+  rating: 4.9,
+  duration: "4 Days 3 Nights",
+  travelers: "97 PAX( min guaranteed)",
+  travelDate: "11th Aug 2025 to 13th Aug 2025",
+  highlights: [
+    "Marble temple",
+    "Gems Gallery",
+    "safari world & Marine park"
+  ],
+  itinerary: [
+    {
+      day: 1,
+      title: "Meals: Breakfast, Lunch & Dinner",
+      activities: [
+        "on Arrival at Bangkok , fresh up at airport , later proceed to hotel for breakfast",
+        "Later check-in room", 
+        "Lunch at Indian restaurant",
+        "Afternoon Bangkok city tour with (Golden + Marble temple + Gems Gallery)",
+        "Dinner at Indian restaurant",
+        "Overnight stay in hotel"
+      ]
+    },
+    {
+      day: 2,
+      title: "Meals: Breakfast, Lunch & Dinner",
+      activities: [
+        "Morning after breakfast , - proceed to safari world & Marine park with Lunch ",
+        "Evening Proceed for Chao phraya Cruise with Indian dinner ",
+        "Overnight stay in hotel"
+      ]
+    },
+    {
+      day: 3,
+      title: "Meals: Breakfast, Lunch ",
+      activities: [
+        "Morning after breakfast , check-out room as per hotel policy",
+        "Put luggage in lobby . rest of the time at leisure",
+        "Lunch at Indian restaurant",
+        "drop off at Bangkok airport"
+      ]
+    },
+   
+  ],
+  inclusions: [
+    "02N stay in Hotel Ambassador Hotel or Similar ( Standard room – basic category )(Higher category on extra cost ) ",
+    "03 Breakfasts at hotel",
+    "02 Lunches in restaurant",
+    "01 lunch on tour",
+    "02 Dinners in restaurant",
+    "2*500ml Bottles of water per person per day",
+    "All transfers according to program including airport transfers by AC coach"
+  ],
+  exclusions: [
+    "Airfare",
+    "Taxes",
+    "Any extra tours & transfers",
+    "Anything not mentioned in Inclusions",
+    "Tourism taxes if any applicable per night per person payable direct at hotel"
+  ],
+  policy: [
+    "HOTEL POLICY: Guest must follow the standard check-in/check-out time as per the final tour confirmation voucher. Hotel timings vary by destination. Early check-in or late check-out is subject to availability and may incur extra cost. Room services and special orders (non-alcoholic beverages) are at the guest's own expense. Some hotels maintain a minibar/snacks – any consumption must be paid for directly by the customer. Any damages to hotel or room property will be charged directly to the guest by the hotel.",
+    "CAB POLICY: Tours once booked are non-refundable, non-transferable, and non-changeable. All tours operate on a point-to-point basis, and the cab will follow only the given itinerary. For private or shared tours, the cab will wait as per the time mentioned in the final itinerary only. Guests must strictly adhere to the schedule. Missed tours or no-shows are strictly non-refundable. Any extra excursions or sightseeing outside the itinerary will incur additional cost and must be informed before the tour start day with full payment."
+  ],
+  flightDetails: {
+    pricef: "INR 32931 Approx",
+    onward: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable 11 Aug 2025: Bangalore 00.30 // Bangkok 05.55",
+    return: "ThaiAirways-- Baggage (23kgs +7kgs) Non Refundable13 Aug 2025 : Bangkok 21.20 // Bangalore 23.20"
+  }
+},
+
+{
+  id: 7,
+  title: "Phuket",
+  destination: "Phuket 2N/3D",
+  price: "INR 22000",
+  discount: "AirFare Separate",
   image: "https://wallpaperaccess.com/full/150575.jpg",
   rating: 4.9,
   duration: "4 Days 3 Nights",
