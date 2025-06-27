@@ -272,7 +272,7 @@ const Index = () => {
   id: 4,
   title: "Goa Tour",
   destination: "Goa 2N/3D",
-  price: "INR 22000 ",
+  price: "INR 19000 ",
   discount: "AirFare Separate",
   image: "https://www.bautrip.com/images/front/goa.jpg",
   rating: 4.9,
@@ -325,7 +325,7 @@ const Index = () => {
     }
   ],
   inclusions: [
-    "02N stay in Hotel (Club Mahindra Assanora Resort or Similar, double occupancy with breakfast)",
+    "02N stay in Hotel (Club Mahindra Assanora Resort or Similar, ( standar room- basic category))",
     "02 Breakfasts at hotel (except arrival day)",
     "02 Lunches in restaurant/resort",
     "02 Dinners in resort",
@@ -353,7 +353,7 @@ const Index = () => {
   id: 5,
   title: "Tirupati Tour",
   destination: "Tirupati 1N/2D",
-  price: "INR 14000 ",
+  price: "INR 16000 ",
   discount: "Specially Curated",
   image: "https://wallpapers.com/images/hd/tirupati-balaji-evening-temple-u5jye4arrupbhb6v.jpg", // Replace with a better image URL if needed
   rating: 4.9,
@@ -513,7 +513,7 @@ const Index = () => {
   itinerary: [
     {
       day: 1,
-      title: "Meals: Breakfast, Lunch & Dinner",
+      title: "Meals:  Lunch & Dinner",
       activities: [
         "Arrive HKT airport and transfer to Phuket hotel",
         "Lunch at Indian restaurant in Phuket", 
@@ -554,7 +554,7 @@ const Index = () => {
   ],
   inclusions: [
     "03N stay in Hotel ",
-    "03 Breakfasts at hotell(except arrival day)",
+    "03 Breakfasts at hotel(except arrival day)",
     "02 Lunches in restaurant",
     "01 lunch on tour",
     "03 Dinners in restaurant",
