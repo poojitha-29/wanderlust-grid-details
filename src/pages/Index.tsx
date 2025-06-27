@@ -374,7 +374,7 @@ const Index = () => {
       title: "Meals: Breakfast, Lunch & Dinner",
       activities: [
         "Early morning start by AC bus to Tirupati",
-        "Breakfast on arrival",
+        "Packed Breakfast on arrival",
         "Check-in to hotel",
         "Lunch at hotel ",
         "Afternoon visit to Kalyana Venkateswara Swamy Temple and Tiruchanur Sri Padmavati Ammavaari Temple",
@@ -387,14 +387,14 @@ const Index = () => {
       activities: [
         "Breakfast at hotel and check-out",
         "Proceed to Tirumala for darshan as per slot timing",
-        " dinner",
+        " Packed dinner",
         "Night return to Bangalore by AC bus"
       ]
     }
   ],
   inclusions: [
     "01N stay in Hotel (Fortune Select Grand Ridge / Ekanta Bliss Hotel / Marasa Sarovar Premier or similar standard room- base category (high category room extra cost))",
-    "02 Breakfasts, 02 Lunches, 01 Dinner, 01 Packed Dinner",
+    "02 Breakfasts(1packed + 1 at hotel), 02 Lunches, 01 Dinner, 01 Packed Dinner",
     "Darshan ticket (as per slot availability)",
     "2*500ml Bottles of water per person per day",
     "All transfers by Ac coach from Banglore to Banglore"
@@ -429,9 +429,10 @@ const Index = () => {
   travelers: "97 PAX( min guaranteed)",
   travelDate: "11th Aug 2025 to 13th Aug 2025",
   highlights: [
-    "Marble temple",
+    "Bangkok City Tour",
     "Gems Gallery",
-    "safari world & Marine park"
+    "safari world & Marine park",
+    "Chao phraya Cruise"
   ],
   itinerary: [
     {
@@ -506,8 +507,8 @@ const Index = () => {
   travelers: "48 PAX( min guaranteed)",
   travelDate: "25th Aug 2025 to 28th Aug 2025",
   highlights: [
-    "Magic show",
-    "City tour",
+    "Carnival Magic show",
+    "City tour with dolphin by the bay",
     "phi phi and khai islands"
   ],
   itinerary: [
@@ -556,7 +557,7 @@ const Index = () => {
     "03N stay in Hotel ",
     "03 Breakfasts at hotel(except arrival day)",
     "02 Lunches in restaurant",
-    "01 lunch on tour",
+    "01 lunch on tour(phi phi island)",
     "03 Dinners in restaurant",
     "2*500ml Bottles of water per person per day",
     "All transfers according to program including airport transfers by AC coach"
