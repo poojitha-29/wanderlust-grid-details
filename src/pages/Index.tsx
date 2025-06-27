@@ -203,7 +203,7 @@ const Index = () => {
   id: 3,
   title: "Amritsar Tour",
   destination: "Amritsar 2N/3D",
-  price: "INR 15000 ",
+  price: "INR 16000 ",
   discount: "AirFare Separate",
   image: "https://as1.ftcdn.net/v2/jpg/03/11/74/00/1000_F_311740081_PL7ftGHnZL7JMBQpigswigY2xFwSRHJg.jpg",
   rating: 4.9,
